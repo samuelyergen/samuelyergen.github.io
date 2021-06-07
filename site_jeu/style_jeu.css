@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,400i,700|Roboto+Slab:700');
+
+body{
+    background-image: url(ressources/MicrosoftTeams-image.png) ;
+    background-size: cover;
+    margin: 0;
+}
+
+.content{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: papyrus ;
+    color: sandybrown ;
+    font-size: 40px ;
+
+}
+
+h2 {
+    font-family: papyrus ;
+    display: flex ;
+    justify-content: center ;
+    color: sandybrown;
+    font-size: 25px ;
+}
+
+p{
+    font-family: papyrus;
+    color: sandybrown;
+}
+
+.containers {
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    border: solid 3px black;
+    background: white;
+}
+
+.draggable {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: move;
+}
+#block{
+    display: block;
+}
+
+#male {
+    background-image: url(./ressources/male.png);
+}
+
+#female {
+    background-image: url(./ressources/female.png);
+}
+
+.draggable.dragging {
+    opacity: .5;
+}
+
+
+.button {
+    border: none;
+    text-decoration: none;
+    font-family: papyrus;
+    background-color: sandybrown;
+    padding: 10px 20px;
+    margin: 10px auto;
+    display: block;
+}
+
+#mapid { 
+    margin: auto;
+    height: 400px;
+     width: 900px;
+}
+
+canvas {
+    display: block;
+    width: 900px;
+    height: 600px;
+    background-color: white;
+    margin: 5px;
+
+}
+
+.score{
+    float: right;
+    width: 25%;
+
+}
+
+.jeu{
+    float: left;
+    width: 75%;
+}
+
+li {
+    font-family: papyrus;
+    color: sandybrown;
+}

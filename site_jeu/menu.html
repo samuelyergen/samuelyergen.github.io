@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_jeu.css">
+    <link rel="shortcut icon" href="#">
+    <script src="menu.js" defer></script>
+    <title>Start menu</title>
+</head>
+<body>
+    <div class="content">
+            <h1>La malédiction d'Ankh</h1>
+            <h2>Votre pseudo:</h2>
+            <div>
+                <input id="playerName" placeholder="Pseudo" maxlength="10">                </div>
+                <h2>Votre avatar:</h2>
+                <div class="containers">
+                    <div class="draggable" id="male" draggable="true"></div>
+                </div>
+                <div class="containers">
+                    <div class="draggable" id="female" draggable="true"></div>
+                </div> 
+                <h2>Votre choix: </h2>
+                <div class="containers" id="playerAvatar">    </div>
+        <form action="geoloc.html">
+            <input class="button" type="submit" value="Valider" onclick="passValues();">
+        </form>
+    <footer>
+        <p>Battiston Arnaud - Ferrari Bastien - Yergen Samuel</p>
+    </footer>
+    </div>   
+</body>
+</html>
